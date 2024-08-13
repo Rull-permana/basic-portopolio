@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Nurul Permana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-color: #0a0a0a;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 2em 0;
+        }
+        h2 {
+            color: #003366;
+        }
+        .project, .experience, .education {
+            margin-bottom: 1.5em;
+            background: #222;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.8em;
+            margin: 0.5em 0;
+            border: 1px solid #444;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            padding: 0.8em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #00509e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portofolio Nurul Permana</h1>
+            <p>Pengembang Perangkat Lunak dan Gim</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya Nurul Permana, seorang pengembang perangkat lunak dan gim dengan pengalaman dalam menciptakan aplikasi dan permainan inovatif. Saya berkomitmen untuk memberikan solusi teknologi yang efisien dan berkualitas tinggi.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Proyek-Proyek</h2>
+            <div class="project">
+                <h3>Proyek 1: Aplikasi Manajemen Tugas</h3>
+                <p><strong>Deskripsi:</strong> Aplikasi web untuk manajemen tugas dengan fitur seperti penjadwalan, pengingat, dan pelacakan kemajuan. Dikembangkan menggunakan React dan Node.js.</p>
+                <p><strong>Teknologi:</strong> React, Node.js, MongoDB</p>
+                <p><a href="https://github.com/nurulpermana/task-manager" target="_blank">Lihat di GitHub</a></p>
+                <img src="task-manager.jpg" alt="Screenshot Aplikasi Manajemen Tugas">
+            </div>
+
+            <div class="project">
+                <h3>Proyek 2: Gim Petualangan 3D</h3>
+                <p><strong>Deskripsi:</strong> Gim petualangan 3D yang menawarkan dunia terbuka dan gameplay interaktif, dikembangkan menggunakan Unreal Engine. Menghadirkan grafis berkualitas tinggi dan cerita yang mendalam.</p>
+                <p><strong>Teknologi:</strong> Unreal Engine, C++</p>
+                <p><a href="https://github.com/nurulpermana/adventure-game" target="_blank">Lihat di GitHub</a></p>
+                <img src="adventure-game.jpg" alt="Screenshot Gim Petualangan 3D">
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Keahlian Teknis</h2>
+            <ul>
+                <li>Bahasa Pemrograman: JavaScript, Python, C++</li>
+                <li>Framework dan Teknologi: React, Node.js, Unreal Engine</li>
+                <li>Alat dan Platform: Git, Docker, AWS</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Pengalaman Kerja</h2>
+            <div class="experience">
+                <h3>Pengembang Perangkat Lunak - PT Inovasi Digital</h3>
+                <p><strong>Periode:</strong> Januari 2021 - Sekarang</p>
+                <p><strong>Deskripsi Pekerjaan:</strong> Bertanggung jawab untuk merancang dan mengembangkan aplikasi perangkat lunak menggunakan berbagai teknologi. Mengelola proyek dan berkolaborasi dengan tim untuk menyelesaikan solusi yang kompleks.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Pendidikan</h2>
+            <div class="education">
+                <h3>Gelar Sarjana dalam Ilmu Komputer - Universitas Teknologi Digital</h3>
+                <p><strong>Tanggal Lulus:</strong> Mei 2020</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak</h2>
+            <div class="contact-form">
+                <form action="mailto:nurul.permana@example.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Nama" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" rows="4" placeholder="kalo gak ada gula kan ada saya PAHAM!!" required></textarea>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nurul Permana. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
